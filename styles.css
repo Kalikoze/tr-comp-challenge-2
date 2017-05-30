@@ -1,0 +1,528 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Fonts */
+
+h1, h2 {
+  font-family: "PT Sans";
+  font-weight: bold;
+}
+
+p, h3, h4, h5 {
+  font-family: "PT Sans";
+  font-weight: lighter;
+}
+
+/* Header section */
+
+header {
+  background-color: #2B2B2B;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20vh;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  height: 50%;
+  width: 50%;
+}
+
+img {
+  display: flex;
+  height: 35px;
+  width: 35px;
+}
+
+ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  padding-left: 5%;
+}
+
+li {
+  cursor: pointer;
+  margin-left: 20px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  width: 175px;
+}
+
+.menu {
+  display: none;
+}
+
+.username {
+  align-items: center;
+  display: flex;
+  height: 50%;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.username p {
+  cursor: pointer;
+  margin: 0 5% 0 20px;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  height: 50%;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.logo {
+  height: 50px;
+  justify-content: flex-end;
+  margin: 0 5% 0 0;
+  padding: 2px;
+  width: 50px;
+}
+
+/* Colors */
+
+body {
+  background-color: #EFEFEF;
+}
+
+.current-usr {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.username-text {
+    color: #289EDA;
+}
+
+.selected {
+  color: white;
+}
+
+.non-selected {
+  color: #9A9A9A;
+}
+
+.bl p {
+  color: black;
+}
+
+/* Main Content */
+
+section.vid-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  width: 100%;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 0;
+  margin-left: 2.5%;
+}
+
+/* User-Profile */
+
+article section {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100% / 3);
+  width: 100%;
+}
+
+article {
+  background-color: white;
+  border: 1px outset black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  margin: 1% .5%;
+  width: 24%;
+}
+
+/* Background Img Layout*/
+
+.bkgd-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;;
+  display: flex;
+}
+
+.enter-chnl {
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  margin: 10px;
+  width: 60px;
+}
+
+.white-shr {
+  background-color: black;
+}
+
+.enter-chnl img {
+  display: flex;
+  height: 50%;
+  width: 50%;
+}
+
+.chnl-views {
+  background-color: rgba(239, 239, 239, 0.5);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  margin-left: auto;
+  text-align: right;
+  width: 50%;
+}
+
+.views, .views-num {
+  align-items: center;
+  display: flex;
+  height: 25%;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.views {
+  margin-top: 10px;
+}
+
+.views-num {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+/* Backaground Image URLs */
+
+.card1 {
+  background-image: url(images/tech-n9ne.jpg);
+}
+
+.card2 {
+  background-image: url(images/eminem.jpg);
+  color: black;
+}
+
+.card3 {
+  background-image: url(images/redman.png);
+}
+
+.card4 {
+  background-color: #F7F7F7;
+  background-image: url(images/dmx.png);
+}
+
+.card5 {
+  background-image: url(images/joe-budden.jpg);
+}
+
+.card6 {
+  background-image: url(images/method-man.jpeg);
+}
+
+.card7 {
+  background-image: url(images/ludacris.png);
+}
+
+.card8 {
+  background-image: url(images/cypress-hill.jpg);
+}
+
+/* Artist Info */
+
+h3, .date-modified, .artist-link {
+  display: flex;
+  height: 50%;
+  margin: 0;
+  width: 100%;
+}
+
+h3 {
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.artist, .artist-link {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  margin: 0;
+  width: 100%;
+}
+
+.artist-link a {
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+}
+
+.date-modified {
+  color: #B9BABC;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.usr-url-pg {
+  background-color: #EFEFEF;
+  color: #7F7F7F;
+  margin: 10px 20px;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* Playlist Stats */
+
+h4, .playlist-name, h5, .num-sub {
+  display: flex;
+  height: 50%;
+  margin: 0;
+  padding-left: 20px;
+  width: 100%;
+}
+
+h4 {
+  padding-top: 5px;
+}
+
+.playlist, .sub {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  margin: 0;
+  width: 100%;
+}
+
+h5 {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.playlist-name {
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.num-sub {
+  color: #289EDA;
+  font-size: 28px;
+  margin-top: -30px;
+  padding-left: 20px;
+}
+
+/* Hover States */
+
+.username-text:hover {
+  color: white;
+}
+
+.non-selected:hover {
+  color: white;
+}
+
+.enter-chnl:hover {
+  background-color: grey;
+}
+
+.enter-chnl img:hover {
+  height: 60%;
+  width: 60%;
+}
+
+.usr-url-pg:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (min-width: 1300px) {
+
+  h1 {
+    font-size: 48px;
+    width: 250px;
+  }
+
+  li {
+    font-size: 24px;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .username-text {
+    font-size: 24px;
+  }
+
+  .logo {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+@media (max-width: 1300px) {
+
+  article {
+    width: 32%;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  article {
+    width: 49%;
+  }
+
+  nav {
+    height: calc(100% / 3);
+    justify-content: center;
+    order: 1;
+    width: 100%;
+  }
+
+  ul {
+    justify-content: center;
+    order: -1;
+    width: 100%;
+  }
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+
+  h1 {
+    font-size: 36px;
+    width: 200px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin: 4% 0 0 0;
+    text-align: center;
+  }
+
+  .username {
+    height: calc(100% / 3);
+    justify-content: flex-end;
+    order: -1;
+    width: 100%;
+  }
+
+  .current-usr {
+    height: 35px;
+    width: 35px;
+  }
+
+  .title {
+    height: calc(100% / 3);
+    justify-content: center;
+    padding-left: 15%;
+    width: 100%;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  article {
+    width: 98%;
+  }
+
+
+  h2 {
+    font-size: 16px;
+    margin: 5% 0 0 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    margin-top: -10px;
+  }
+
+  .username {
+    width: 100%;
+    height: 50%;
+  }
+
+  .title {
+    height: 50%;
+  }
+
+  .menu {
+    display: flex;
+    left: 5%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .menu:hover {
+    content: url(images/menu-white.svg);
+  }
+
+  .views {
+    font-size: 12px;
+  }
+
+  .views-num {
+    font-size: 20px;
+    margin-top: -5px;
+  }
+
+  .date-modified {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .usr-url-pg {
+    font-size: 12px;
+  }
+
+  .playlist-name {
+    padding-top: 1px;
+  }
+
+  .sub {
+    margin-top: 0px;
+  }
+
+  .num-sub {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+}
